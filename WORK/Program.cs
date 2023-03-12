@@ -43,5 +43,5 @@ for (int i = 0; i < arrayBase.Length; i++)
 }
 
 System.Console.Write("Сформированный массив из строк, длина которых меньше либо равна 3 символа:  \n\r[ ");
-foreach (var item in arrayEl3) Console.Write($"   {item}   ");
+foreach (var item in arrayEl3) Console.Write($"   '{item}'   ");
 Console.Write("]");
